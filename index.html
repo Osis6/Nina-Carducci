@@ -11,13 +11,46 @@
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://nina-carducci.github.io/" />
 
+    <!-- Open Graph data -->
+    <meta
+      property="og:title"
+      content="Nina Carducci, Photographe professionnel"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://osis6.github.io/Nina-Carducci/" />
+    <meta
+      property="og:image"
+      content="https://osis6.github.io/Nina-Carducci/assets/images/nina.webp"
+    />
+    <meta
+      property="og:description"
+      content="Nina Carducci, photographe professionnel à Bordeaux - vous propose de participer à des shootings photos, de créer des albums photos personnalisés, ou de retoucher vos propres photos."
+    />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@nina_carducci" />
+    <meta
+      name="twitter:title"
+      content="Nina Carducci, Photographe professionnel"
+    />
+    <meta
+      name="twitter:description"
+      content="Nina Carducci - Photographe professionnel à Bordeaux - Shootings photos, création d'albums photos personnalisés, retouche de vos propres photos"
+    />
+    <meta name="twitter:creator" content="@nina_carducci" />
+    <meta
+      name="twitter:image"
+      content="https://osis6.github.io/Nina-Carducci/assets/images/nina.webp"
+    />
+
     <!-- Feuilles de style -->
     <link
       rel="stylesheet"
       media="screen"
       href="./assets/bootstrap/bootstrap.min.css"
     />
-    <link rel="stylesheet" media="screen" href="./assets/style.css" />
+    <link rel="stylesheet" media="screen" href="./assets/style.min.css" />
 
     <!-- Polices -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -204,7 +237,7 @@
             width="200"
             height="200"
             src="./assets/images/nina.webp"
-            alt="Photographe Nina Carducci"
+            alt="Nina Carducci"
             title="Photographe Nina Carducci"
           />
         </div>
@@ -239,7 +272,7 @@
               class="gallery-item"
               src="./assets/images/gallery/concerts/aaron-paul-photo.webp"
               alt="Aaron Paul lors d'un concert"
-              title="Aaron Paul lors d'un concert"
+              title="photo Aaron Paul lors d'un concert"
               width="100"
               height="100"
               tabindex="0"
@@ -249,6 +282,7 @@
               class="gallery-item"
               src="./assets/images/gallery/entreprise/ali-morshedlou-photo.webp"
               alt="Ali Morshedlou"
+              title="photo ali Moshedlou"
               width="100"
               height="100"
               tabindex="0"
@@ -278,7 +312,7 @@
               class="gallery-item"
               src="./assets/images/gallery/portraits/ade-tunji-photo.webp"
               alt="Portrait d'un homme"
-              title="Portrait d'un homme"
+              title="photo, Portrait d'un homme"
               width="100"
               height="100"
               tabindex="0"
@@ -298,7 +332,7 @@
               class="gallery-item"
               src="./assets/images/gallery/portraits/nino-van-prattenburg-photo.webp"
               alt="Portrait d'une femme"
-              title="Portrait d'une femme"
+              title="photo, Portrait d'une femme"
               width="100"
               height="100"
               tabindex="0"
@@ -308,7 +342,7 @@
               class="gallery-item"
               src="./assets/images/gallery/concerts/austin-neill-photo.webp"
               alt="Austin Neill lors d'un concert"
-              title="Austin Neill lors d'un concert"
+              title="photo, Austin Neill lors d'un concert"
               width="100"
               height="100"
               tabindex="0"
@@ -405,6 +439,42 @@
     <footer role="contentinfo" id="contact">
       <div class="container">
         <div class="form-container">
+          <h2 class="contact">Contact</h2>
+          <h3>Mes coordonnées :</h3>
+          <div
+            itemscope
+            itemtype="https://schema.org/LocalBusiness"
+            class="coordonnees"
+          >
+            <div itemprop="name">Nina Carducci</div>
+            <div itemprop="description">Photographe professionnel</div>
+            <div
+              itemprop="address"
+              itemscope
+              itemtype="https://schema.org/PostalAddress"
+            >
+              <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
+              <span itemprop="addressLocality">Bordeaux</span>
+            </div>
+            <div itemprop="telephone">05 56 67 78 89</div>
+            <div>
+              Je réponds au téléphone du lundi au vendredi de 10 h à 19 h.
+            </div>
+            <meta itemprop="openingHours" content="Mo-Fr 10:00-19:00" />
+            <div itemprop="priceRange">Prix de 50€ à 400€</div>
+            <div
+              itemprop="image"
+              itemscope
+              itemtype="https://schema.org/ImageObject"
+            >
+              <img
+                src="./assets/images/nina.webp"
+                alt="Nina Carducci"
+                itemprop="url"
+                hidden
+              />
+            </div>
+          </div>
           <h3>Une question ? Une demande de devis ?</h3>
           <p>
             N'hésitez pas à m'écrire ! Je vous répondrais en moins de 24 heures
@@ -428,7 +498,7 @@
           <img
             src="./assets/images/camera.webp"
             alt="Appareil photo"
-            title="Appareil photo"
+            title="image appareil photo"
             width="200"
             height="200"
           />
