@@ -1,2 +1,2 @@
 # Nina-Carducci
-site nina carducci
+Nina Carducci - Photographe professionnel à Bordeaux
